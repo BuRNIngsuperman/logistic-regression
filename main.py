@@ -62,4 +62,4 @@ if __name__ == "__main__":
     # 对图片数据集进行标准化处理
     train_x = train_x_flatten/255
     test_x = test_x_flatten/255
-    d = model(train_x, train_y, test_x, test_y, epoch=2000, learning_rate=0.005, print_cost=True)
+    d = model(train_x, train_y, test_x, test_y, epoch=5000, learning_rate=0.0005, print_cost=True)
